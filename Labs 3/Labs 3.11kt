@@ -1,0 +1,21 @@
+import java.util.Scanner
+
+fun main(args: Array<String>) {
+    // Считываем число
+    val scanner = Scanner(System.`in`)
+    val inputNumber = scanner.nextInt()
+
+    // Проверка четности числа
+    if (inputNumber % 2 == 0) {
+        println("а) Четное число.")
+    } else {
+        println("а) Нечетное число.")
+    }
+
+    // Проверка последней цифры
+    if (inputNumber % 10 == 7) {
+        println("б) Заканчивается цифрой 7.")
+    } else {
+        println("б) Не заканчивается цифрой 7.")
+    }
+}
