@@ -1,3 +1,3 @@
-fun framesInTime(minutes: Int, fps: Int): Int {
-    return minutes * 60 * fps
+fun powerEqualsNumber(n: Int, k: Int): Boolean {
+    return Math.pow(k.toDouble(), k.toDouble()).toInt() == n
 }
